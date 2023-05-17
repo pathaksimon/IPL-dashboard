@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+  .ulu {
+    display: flex;
+    list-style-type: none;
+
+    height: 100%;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .ulu {
+    display: flex;
+    list-style-type: none;
+
+    height: 100%;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+}

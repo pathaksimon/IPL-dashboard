@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px) {
+  .lista1 {
+    background-color: #1e293b;
+    width: 45%;
+    margin-bottom: 8px;
+    margin-right: 20px;
+    display: flex;
+  }
+
+  .icon {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .lista1 {
+    background-color: #1e293b;
+    width: 45%;
+    margin-bottom: 8px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icon {
+    width: 25%;
+  }
+}

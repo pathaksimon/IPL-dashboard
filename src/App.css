@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-container {
+    height: 100vh;
+    background-size: cover;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .centerist {
+    width: 90%;
+
+    height: 80%;
+  }
+
+  .ipl-logo {
+    height: 50px;
+    width: 50px;
+  }
+
+  .ipl-image-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .bg-container {
+    min-height: 100vh;
+    background-size: cover;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .centerist {
+    width: 90%;
+
+    height: 80%;
+  }
+
+  .ipl-logo {
+    height: 50px;
+    width: 50px;
+  }
+
+  .ipl-image-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,146 @@
+@media screen and (max-width: 768px) {
+  .team-match-card {
+    background-color: red;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner-card {
+    width: 90%;
+  }
+
+  .bannerPhoto {
+    width: 100%;
+  }
+
+  .team-match-para {
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+  }
+
+  .details-card {
+    width: 90%;
+    background-color: #1e293b;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .competeTeam {
+    width: 20%;
+  }
+
+  .p1 {
+    color: white;
+    font-size: 15px;
+  }
+
+  .cardoffirst {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .horizontal {
+    width: 100%;
+  }
+
+  .ul {
+    width: 90%;
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .CSK {
+    background-color: yellow;
+  }
+
+  .MI {
+    background-color: blue;
+  }
+  .SRH {
+    background-color: orange;
+  }
+  .RCB {
+    background-color: red;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .team-match-card {
+    background-color: red;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner-card {
+    width: 90%;
+  }
+
+  .bannerPhoto {
+    width: 100%;
+  }
+
+  .team-match-para {
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+  }
+
+  .details-card {
+    width: 90%;
+    background-color: #1e293b;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .competeTeam {
+    width: 20%;
+  }
+
+  .p1 {
+    color: white;
+    font-size: 15px;
+  }
+
+  .cardoffirst {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .horizontal {
+    width: 100%;
+  }
+
+  .ul {
+    width: 100%;
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .CSK {
+    background-color: yellow;
+  }
+
+  .MI {
+    background-color: blue;
+  }
+  .SRH {
+    background-color: orange;
+  }
+  .RCB {
+    background-color: red;
+  }
+}
